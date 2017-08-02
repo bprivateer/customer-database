@@ -10,6 +10,15 @@ body{
 #container{
   display: flex;
   flex-flow: row wrap;
+  width: 999px;
+  justify-content: center;
+  margin-left: 150px;
+}
+
+div{
+  width: 250px;
+  margin: 1px;
+  display: block;
 }
 
 .line{display: flex;

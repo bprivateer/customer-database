@@ -15,7 +15,8 @@ let results = customers.results;
 // results.location.postcode;
 // results.phone;
 // results.value;
-let output;
+
+let output = "";
 
 for (var i = 0; i < results.length; i++){
   console.log("hello");
@@ -26,7 +27,7 @@ for (var i = 0; i < results.length; i++){
 
   output += `<h2>${results[i].name.first} ${results[i].name.last} </h2>`;
 
-  output += `<p class="line">________________________________</p>`;
+  output += `<p class="line">_____________________</p>`;
 
   output += `<p class="email">${results[i].email}</p>`;
 
