@@ -1,0 +1,21 @@
+body{
+  background-color: white;
+  font-family: sans-serif;
+}
+
+
+
+
+
+#container{
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.line{display: flex;
+  color: blue;
+  justify-content: center;
+
+};
+
+.
